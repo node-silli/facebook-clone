@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+img {
+  width: 310px;
+  height: auto;
+  background-color: rgba(245, 245, 245, 0.925);
+  margin-top: 160px;
+  margin-left: 100px;
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 180;
+  font-size: 27px;
+  padding-left: 130px;
+  position: absolute;
+  top: 250px;
+}
+.form {
+  border: 1px solid white;
+  border-radius: 7px;
+  float: right;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px 20px 23px 20px;
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  top: 136px;
+  right: 166px;
+  outline-color: white;
+}
+input[type="text"] {
+  font-size: 17px;
+  background-color: white;
+  width: 325px;
+  padding: 13px;
+  border-radius: 7px;
+  border: 0.5px solid black;
+  outline-color: rgb(69, 69, 199);
+  outline: none;
+}
+input[type="password"] {
+  font-size: 17px;
+  width: 325px;
+  padding: 13px;
+  border-radius: 7px;
+  border: 0.5px solid black;
+  outline: 0.3px wheat;
+  background-color: white;
+}
+input[type="password"]:focus {
+  box-shadow: 0px 0px 2px rgb(69, 69, 199);
+}
+input[type="text"]:focus {
+  box-shadow: 0px 0px 2px rgb(95, 95, 218);
+  outline: 2px #83b4f3;
+  box-shadow: 0px 0px 2px rgb(69, 69, 199);
+}
+input {
+  line-height: 25px;
+}
+.login {
+  width: 350px;
+  background-color: #256affe8;
+  color: white;
+  padding: 13px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  transition: all;
+  transition-duration: 0.2s;
+  font-size: 20px;
+  font-weight: 600;
+}
+.login:hover {
+  background-color: #225edfe8;
+}
+body {
+  background-color: rgba(245, 245, 245, 0.925);
+}
+#forgot {
+  text-decoration: none;
+  color: #225edfe8;
+  margin: 94px;
+  font-weight: 500;
+}
+#forgot:hover {
+  text-decoration: underline;
+}
+.newid {
+  width: 220px;
+  background-color: rgb(46, 187, 46);
+  color: white;
+  padding: 13px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 11px;
+  margin-left: 58px;
+  transition: all;
+  transition-duration: 0.2s;
+}
+.newid:hover {
+  background-color: rgb(39, 158, 39);
+}
+#line {
+  width: 333px;
+  margin: 240px 0px 0px 770px;
+}
+#create {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+#create:hover {
+  text-decoration: underline;
+}
